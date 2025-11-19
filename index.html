@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <section class="player player--0 player--active">
+            <h2 class="playerName">Player 1</h2>
+            <p class="score-styel"><span id="score--0">43</span></p>
+            <div class="current">
+                <h4 class="current-heading">Current</h4>
+                <p class="currentNumber" id="current--0">6</p>
+            </div>
+        </section>
+        <section class="player player--1">
+            <h2 class="playerName">Player 2</h2>
+            <p class="score-styel"><span id="score--1">25</span></p>
+            <div class="current">
+                <h4 class="current-heading">Current</h4>
+                <p class="currentNumber"><span id="current--1">5</span></p>
+            </div>
+
+        </section>
+
+        <img src="dice.svg/dice-1.svg" alt="dice.image" class="dice">
+        <button class="btn" id="btn--new">🔄 New game</button>
+        <button class="btn" id="btn--scroll">🎲 Roll dice</button>
+        <button class="btn" id="btn--hold">📥 Hold</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
