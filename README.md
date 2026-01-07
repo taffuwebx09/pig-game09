@@ -1,22 +1,62 @@
-# Pig Game 🎲
+# 🎲 Pig Game (Before vs After)
 
-This repository contains two versions of the Pig Game project.
+This repository shows the evolution of my **Pig Game** project — from an initial version to a more refined and feature-rich version.
 
-## Old Version
+---
 
-- Basic UI
-- Initial JavaScript logic
+## 🔹 Version 1 – Old (Before)
+📁 Folder: `/before`
 
-Folder: old-version
+### Features
+- Basic dice roll functionality
+- Simple score update
+- Minimal UI
+- No winner animation
+- Limited game state handling
 
-## New Version
+This version helped me understand:
+- DOM manipulation basics
+- Event handling
+- Game logic fundamentals
 
-- Improved UI & UX
-- Better JavaScript logic
-- Cleaner code structure
+---
 
-Folder: new-version
+## 🔹 Version 2 – New (After / Improved)
+📁 Folder: `/after`
 
-This project shows my learning progress and improvement.
-<br>
-Author:- Ansari tafajjul
+### Improvements & Features
+- Clean turn-based game logic
+- Active player highlighting
+- Hold score functionality
+- Winning condition handling (100 points)
+- Winner celebration animation (confetti)
+- Improved UI & layout
+- Better state management
+- Cleaner and more readable JavaScript code
+
+---
+
+## 🧠 What I Improved
+- Refactored game logic for clarity
+- Reduced duplicate code
+- Better variable naming
+- Improved user experience (UX)
+- Clear separation of game states
+
+---
+
+## 🚀 Tech Stack
+- HTML
+- CSS
+- JavaScript (Vanilla)
+
+---
+
+## 📌 Notes
+- The confetti animation is implemented using an external script.
+- Core game logic and UI are written and improved by me.
+
+---
+
+## 👤 Author
+**Tafajjul**
