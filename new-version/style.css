@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background: linear-gradient(to right, #eaafc8, #654ea3);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  position: relative;
+  width: 70rem;
+  height: 38rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff4d;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.right-container,
+.left-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.active-player {
+  background: #a2509070;
+  transition: background-color 1s ease-in-out;
+}
+
+.active-player-name {
+  background-color: wheat;
+  padding: 0px 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.player-name1,
+.player-name2 {
+  position: absolute;
+  top: 13%;
+  font-size: 55px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Stack Sans Notch', sans-serif;
+  line-height: 60px;
+  color: #654ea3;
+}
+
+.player-score {
+  position: absolute;
+  top: 30%;
+  font-size: 65px;
+  font-weight: 400;
+  font-family: 'Science Gothic', sans-serif;
+  color: #333333;
+  /* background: #FFFFFF; */
+  text-shadow: 2px 2px 0px #ffffff, 5px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.current-container {
+  position: absolute;
+  bottom: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 20%;
+  background: #ffffff4d;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+  gap: 10px;
+}
+
+.current-text {
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: 'Stack Sans Notch', sans-serif;
+  color: #000000;
+}
+
+.current-number {
+  font-size: 35px;
+  color: #000000;
+  text-shadow: 2px 2px 0px #ffffff, 5px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.new-game-btn,
+.roll-dice-btn,
+.hold-dice-btn {
+  padding: 10px 22px;
+  font-size: 18px;
+  border-radius: 25px;
+  border: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.new-game-btn {
+  position: absolute;
+  top: 8%;
+  left: 42.5%;
+}
+
+.roll-dice-btn {
+  position: absolute;
+  top: 65%;
+  left: 42.5%;
+}
+
+.hold-dice-btn {
+  position: absolute;
+  top: 78%;
+  left: 44.5%;
+}
+
+button:active {
+  transform: translateY(5px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.103);
+}
+
+.dice {
+  position: absolute;
+  top: 35%;
+  width: 12%;
+  height: 12%;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+.dice-hideen {
+  visibility: hidden;
+}
+
+/* game-winner */
+
+.winner-player {
+  position: relative;
+}

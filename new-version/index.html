@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&family=Stack+Sans+Notch:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <div class="left-container active-player player--0">
+        <h2 class="player-name1 active-player-name">player 1</h2>
+        <h3 class="player-score" id="player-0-score">42</h3>
+        <div class="current-container">
+          <h2 class="current-text">current</h2>
+          <h3 class="current-number" id="player-0-current">10</h3>
+        </div>
+      </div>
+
+      <div class="right-container player--1">
+        <h2 class="player-name2">player 2</h2>
+        <h3 class="player-score" id="player-1-score">42</h3>
+        <div class="current-container">
+          <h2 class="current-text">current</h2>
+          <h3 class="current-number" id="player-1-current">10</h3>
+        </div>
+      </div>
+      <img class="dice" src="images/dice-6.svg" alt="images-error" />
+      <button class="new-game-btn">🔁 NEW GAME</button>
+      <button class="roll-dice-btn">🎲 ROLL DICE</button>
+      <button class="hold-dice-btn">📩 HOLD</button>
+    </main>
+    <script src="winner.js" defer></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
