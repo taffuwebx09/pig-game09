@@ -129,17 +129,4 @@ pig-game-v2/
 │   └── after.png
 │
 └── README.md
-Future Improvements
 
-Add sound effects 🎵
-
-Add difficulty modes (Target score: 50 / 100 / 150)
-
-Better mobile responsiveness
-
-Save winner/highscore using localStorage
-
-👨‍💻 Author
-
-Tafajjul
-```
