@@ -16,7 +16,7 @@
 
 ## 🚀 Live Demo
 
-👉 https://YOUR-USERNAME.github.io/pig-game-v2/
+👉 https://github.com/taffuwebx09/pig-game09/blob/main/README.md
 
 ---
 
